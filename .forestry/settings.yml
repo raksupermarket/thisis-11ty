@@ -6,12 +6,9 @@ webhook_url:
 sections:
 - type: directory
   path: Article Post
-  label: Content
+  label: Post
   create: all
   match: "**/*"
-- type: document
-  path: _data
-  label: Doc
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
